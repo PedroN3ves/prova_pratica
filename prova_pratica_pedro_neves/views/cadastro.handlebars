@@ -1,0 +1,38 @@
+<h1>Cadastrar Livro</h1>
+<form action='/products/signup' method="post" class="form">
+    <div class="form-control">
+        <label for="name">Titulo do Livro:</label>
+        <input type="text" name="name" placeholder="Digite o nome do livro...">
+    </div>
+
+    <div class="form-control">
+        <label for="category">Categoria do Livro:</label>
+        <input type="text" name="category" placeholder="Digite a categoria do livro...">
+    </div>
+
+    <div class="form-control">
+        <label for="description">Description:</label>
+        <input type="text" name="description" placeholder="Digite a descrição do livro...">
+    </div>
+
+    <div class="form-control">
+        <label for="price">Preço do Livro:</label>
+        <input type="number" name="price" placeholder="R$50,00">
+    </div>
+
+    <div class="form-control">
+        <label for="quantity">Quantidade disponível:</label>
+        <input type="number" name="quantity" placeholder="60">
+    </div>
+
+    <div class="form-control">
+        <input type="submit" value="Cadastrar">
+    </div>
+
+    {{!-- <div>
+        <button>
+            <a href="/">Show</a>
+        </button>
+    </div> --}}
+    
+</form>

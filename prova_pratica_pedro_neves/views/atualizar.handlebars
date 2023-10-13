@@ -1,0 +1,32 @@
+<h1>Atualizar Livro</h1>
+<form action="/products/update/{{product.id}}" method="post">
+    <div class="form-control">
+        <label for="name">Titulo do Livro:</label>
+        <input type="text" name="name" value="{{product.name}}">
+    </div>
+
+    <div class="form-control">
+        <label for="category">Categoria do Livro:</label>
+        <input type="text" name="category" value="{{product.category}}">
+    </div>
+
+    <div class="form-control">
+        <label for="description">Descrição do Livro:</label>
+        <input type="text" name="description" value="{{product.description}}">
+    </div>
+
+    <div class="form-control">
+        <label for="price">Preço do Livro:</label>
+        <input type="number" name="price" value="{{product.price}}">
+    </div>
+
+    <div class="form-control">
+        <label for="quantity">Quantidade disponível:</label>
+        <input type="number" name="quantity" value="{{product.quantity}}">
+    </div>
+
+
+    <div class="">
+        <input type="submit" name="Refresh">
+    </div>
+</form>
